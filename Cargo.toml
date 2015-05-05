@@ -1,0 +1,13 @@
+[package]
+
+name = "watermelon"
+version = "0.0.1"
+authors = [ "Anayei Flores <a.flores1591@gmail.com>" ]
+
+[[bin]]
+name = "watermelon"
+path = "src/watermelon.rs"
+
+[dependencies.color]
+name = "color"
+git = "https://github.com/bjz/color-rs.git"
